@@ -28,6 +28,8 @@ Maximilian is a cross-platform and multi-target audio synthesis and signal proce
 - example projects for Firefox and Chromium-based browsers using the Web Audio API ScriptProcessorNode (deprecated!)
 - example projects for Chromium-based browsers using the Web Audio API AudioWorklet (e.g. Chrome, Brave, Edge, Opera, Vivaldi)
 
+Note that this is a special-purpose fork for purposes of getting the juceSynthFramework project to compile. Rather than move files, I copied them to the expected locations, none of which make any sense but this was a bit cleaner than trying to find all the places and ways that the juceSynthFramework project is hacking where these files should be. The actual expected locations are really bad ones, and also do not match the README for that project, so I'm guessing that the structure of Maximilian changed after their most recent project updates a couple of years back. I might have corrected some compiler warnings as well, for C++17 standards.
+
 
 ### Basic Examples
 
